@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>IMG_20210526_104010.jpg</filename>
+	<path>/home/mrllanos/Escritorio/EOD2O21/images/IMG_20210526_104010.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3264</width>
+		<height>2448</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>monedero</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>551</xmin>
+			<ymin>377</ymin>
+			<xmax>2218</xmax>
+			<ymax>1970</ymax>
+		</bndbox>
+	</object>
+</annotation>
