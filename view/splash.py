@@ -4,6 +4,7 @@ from tkinter import ttk
 from turtle import color
 from PIL import ImageTk, Image
 from linkButton import *
+import registro 
 from cv2 import determinant
 splash= Tk()
 cl = "#603C78"
@@ -31,7 +32,7 @@ def login():
   progressbar.stop()
   splash.destroy()
   root = Tk()
-  root.title('SIDE') 
+  root.title('SIDE LOGIN') 
   root.geometry("%dx%d+%d+%d" % (width, height, left, top))
   #variable usuario
   user = StringVar()
@@ -67,7 +68,7 @@ ventana.mainloop()
   user_entry = Entry(root,textvariable=user).place(x=400,y=250)
   password_entry = Entry(root,textvariable=password,show="*").place(x=400,y=300)
   #button
-  link = Linkbutton(root,text="Register now ..!",command=Linkbutton.link_clicked).place(x=560, y=340)
+  link = Linkbutton(root,text="Register now ..!",command= registro.main).place(x=560, y=340)
   #link.place(width=300, height=200)
   
   button_sigint= Button(root,text="    sigint    ",fg="black",bg="silver",font=("AlternateGothic2 BT",15)).place(x=535,y=400)
